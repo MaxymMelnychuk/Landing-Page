@@ -278,21 +278,21 @@ export default function App() {
     </div>
         
     <div className="icon w-full h-auto p-3 border border-gray-300/50 rounded-lg overflow-hidden relative">
-    {/* Image de fond remplacée par une balise <img> */}
+    
     <img 
         loading="lazy"
         src="src/images/card-img.png" 
         alt="Card Background" 
         className="object-cover w-full h-full absolute top-0 left-0" 
     />
-    {/* Icône placée au-dessus de l'image de fond */}
+    
     <img 
         loading="lazy" 
         src="src/images/performance-icon.png" 
         alt="Performance Icon" 
         className="w-25 icon transform"
     />
-    {/* Texte */}
+    
     <div className="relative z-20">
         <Bento 
             text="Performance" 
@@ -303,21 +303,21 @@ export default function App() {
 
       
         <div className="icon w-full h-auto p-3 border border-gray-300/50 rounded-lg overflow-hidden relative">
-    {/* Image de fond remplacée par une balise <img> */}
+    
     <img 
         loading="lazy"
         src="src/images/card-img.png" 
         alt="Card Background" 
         className="object-cover w-full h-full absolute top-0 left-0" 
     />
-    {/* Icône placée au-dessus de l'image de fond, à un endroit défini */}
+    
     <img 
         loading="lazy" 
         src="src/images/support-icon.png" 
         alt="Support Icon" 
         className="w-25 icon transform"
     />
-    {/* Texte */}
+    
     <div className="relative z-20">
         <Bento 
             text="Support 24/7" 
@@ -326,21 +326,21 @@ export default function App() {
     </div>
 </div>
         <div className="icon w-full h-auto p-3 border border-gray-300/50 rounded-lg overflow-hidden relative">
-    {/* Image de fond remplacée par une balise <img> */}
+    
     <img 
         loading="lazy"
         src="src/images/card-img.png" 
         alt="Card Background" 
         className="object-cover w-full h-full absolute top-0 left-0" 
     />
-    {/* Icône placée au-dessus de l'image de fond */}
+    
     <img 
         loading="lazy" 
         src="src/images/lowprice-icon.png" 
         alt="Low Price Icon" 
         className="w-25 icon transform "
     />
-    {/* Texte */}
+    
     <div className="relative z-20">
         <Bento 
             text="Low Price" 
@@ -364,7 +364,7 @@ export default function App() {
     </div>
 </section>
 
-{/* what we accomplished */}
+
 <section className=' bg-[url(src/images/light-circle.png)] bg-center bg-no-repeat  h-200 w-full xs:w-auto md:w-auto  items-center  justify-center lg:gap-10 px-5 flex flex-col-reverse md:flex-row gap-20 md:gap-0  md:px-0 mt-30 md:mt-0'>
     <div className='w-full md:w-120 lg:w-150 h-auto text-white flex flex-col items-center lg:items-center'>
        
@@ -374,19 +374,19 @@ export default function App() {
 
        
         <div className='second flex flex-wrap justify-center gap-5 mb-5 lg:mb-10'>
-          {/* Container 1 */}
+          
           <div className='backdrop-blur-xl border border-gray-400/50 inset-shadow-[0_0px_50px_rgba(0,0,0,1)] rounded-lg flex items-center justify-center flex-col lg:text-[18px] w-35 md:w-45 text-xs lg:w-65 py-3 shadow-4xl'>
           <Accomplished  text="1000+" text2="Clients served worldwide" />
           </div>
 
-          {/* Container 2 */}
+          
           <div className='third backdrop-blur-xl border border-gray-400/50 inset-shadow-[0_0px_50px_rgba(0,0,0,1)] rounded-lg flex items-center justify-center flex-col lg:text-[18px] w-35 md:w-45 text-xs lg:w-65 py-3 shadow-4xl'>
             
             <Accomplished  text="500+" text2="Projects delivered" />
           </div>
         </div>
 
-        {/* Container 3 */}
+        
         <div className=' fourth backdrop-blur-xl border border-gray-400/50 inset-shadow-[0_0px_50px_rgba(0,0,0,1)] rounded-lg flex items-center justify-center flex-col lg:text-[18px] w-35 md:w-45 text-xs lg:w-65 py-3 shadow-4xl'>
           
           <Accomplished  text="20+" text2="Awards won for excellence" />
