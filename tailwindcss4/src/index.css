@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+
+
+@theme {
+  
+  --font-primary: "Rubik", "sans-serif";
+  --inset-shadow-md: inset 0px 0px 25px rgba(255, 255, 255, 1);
+  
+  --my-blur: 150px;
+ 
+  --color-primary: oklch(81.91% 0.1159 178.41);
+  
+  --bg-position: 50%;
+
+  --background-gradient: linear-gradient(to bottom, oklch(16.5% 0.03 270), oklch(0% 0 0));
+  
+  
+}
+
+html{
+  
+  scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar {
+  width: 3px;
+}
+
+html::-webkit-scrollbar-track {
+  background: #f1f1f100;
+}
+
+html::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+  
+}
+
+html::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+
+

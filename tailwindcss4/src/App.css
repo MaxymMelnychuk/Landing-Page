@@ -1,0 +1,91 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+* {
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+ 
+
+body {
+    background-color: black;
+    
+}
+
+.grayscale {
+    filter: invert(1) brightness(10000%);
+}
+
+  
+.logo {
+    width: 70px;
+}
+
+  @keyframes scrollLeft {
+    to {
+        left: -200px;
+    }
+  }
+
+.mask {
+    mask-image: linear-gradient( 
+        to right,
+        rgba(0, 0, 0, 0),
+        rgba(0, 0, 0, 1) 20%,
+        rgba(0, 0, 0, 1) 80%,
+        rgba(0, 0, 0, 0)
+
+    );
+}
+
+
+.animation-scroll {
+    animation-name: scrollLeft;
+    animation-duration: 20s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+
+
+.logo1 {
+    animation-delay: 0s;
+}
+
+.logo2 {
+    animation-delay: 3.33s; 
+}
+
+.logo3 {
+    animation-delay: 6.66s; 
+}
+
+.logo4 {
+    animation-delay: 10s; 
+}
+
+.logo5 {
+    animation-delay: 13.33s; 
+}
+
+.logo6 {
+    animation-delay: 16.66s; 
+}
+
+.bg-size {
+    background-size: 100vh;
+}
+
+@media (max-width: 768px) {
+    .bg-size {
+      background-size: 200vh;
+    }
+  }
+
+
+  
+  
+  
